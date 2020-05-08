@@ -1,0 +1,48 @@
+{
+    "car":[
+        {
+            "name":"Hyundai Grand i10",
+            "discription":"The Hyundai Grand i10 has 1 Petrol Engine on offer. The Petrol engine is 1197 cc. ... Depending upon the variant and fuel type the Grand i10 has a mileage of 18.9 kmpl.",
+            "cartype":"petrol",
+            "color":"white",
+            "Seater":"4 Seater",
+            "booking":"Available",
+            "rent1":"Rent Per Day: 350/-",
+            "image":"https://imgd.aeplcdn.com/0x0/n/odg8asa_1459238.jpg"
+            },
+        {
+            "name":"Ford EcoSport",
+            "color":"Deep Blue",
+            "discription":"The Ford EcoSport has a few good qualities, such as its spacious cargo area and a user-friendly optional infotainment system. Unfortunately, it also has underpowered engines and so-so ride comfort.",
+            "cartype":"Diesel",
+            "Seater":"4 Seater",
+            "booking":"Available",
+            "rent1":"Rent Per Day: 1350/-",
+            "image":"https://cnet3.cbsistatic.com/img/L-w9-hxtnuQqc362mIxBK87JQX0=/1200x675/2018/04/25/2ab97147-d6da-405b-a6bd-2a125b701ba4/001-2018-ford-ecosport-review.jpg"
+        },
+        {
+            "name":"Maruti Suzuki XL6",
+            "color":"Glossy Black",
+            "discription":"The Maruti Suzuki XL6, although based on the Ertiga, is a premium MPV with rugged styling elements and added equipment. It packs features like automatic LED headlamps, cruise control and rains sensing wipers, and the sense of space is elevated with captain seats in the middle row.",
+            "cartype":"petrol",
+            "Seater":"6 Seater",
+            "booking":"Booked",
+            "rent1":"Rent Per Day: 850/-",
+            "image":"https://autotechreview.com/images/Maruti-Suzuki-XL6-Review-First-Drive-2019.jpg"
+        
+        },
+        {
+            "name":"Honda CR-V",
+            "color":"Blue",
+            "discription":"The 2020 Honda CR-V is far and away one of the best compact SUVs you can buy. A tremendous amount of cargo space, roomy seats, and an upscale cabin contribute to its appeal",
+            "cartype":"petrol",
+            "Seater":"4 Seater",
+            "booking":"Available",
+            "rent1":"Rent Per Day: 450/-",
+            "image":"https://media.ed.edmunds-media.com/honda/cr-v/2020/oem/2020_honda_cr-v_4dr-suv_touring_fq_oem_3_815.jpg"
+        
+        }
+    ]
+
+
+}
