@@ -124,7 +124,7 @@ function popup(e) {
             
             
                 console.log(car);
-                //const art = 
+                
               output3 +=`
               
                 <div class="container">
