@@ -17,9 +17,7 @@ xhttp.onreadystatechange = function a() {
                          </div>
                       </div>
                       <button class="btn btn-dark" style="margin-top:12px; width:200px;" onclick="book()"" >Book</button>
-                      <button onclick="dbtn()" onclick="dbtn1()" class="btn btn-light"style="margin-top:12px; margin-left:40px; width:200px;" id="id1">Details</button>
-                      
-
+                      <button onclick="dbtn(${i})" class="btn btn-light"style="margin-top:12px; margin-left:40px; width:200px;" id="id1">Details</button>
                     </li>
                 `;
       }
@@ -36,7 +34,7 @@ var form=document.getElementById('id1');
 form.addEventListener('click',book);
 
 function book(e)
-{
+{  
 $('#car').hide();
 $('#details').hide();
 $('#form-book').show();
@@ -110,7 +108,8 @@ function popup(e) {
 
 
 
-    function dbtn(e){
+    function dbtn(vari){
+      console.log('vari', vari)
       $('#car').hide();
               $('#details').show();
       
@@ -130,78 +129,22 @@ function popup(e) {
               
                 <div class="container">
                   <div class="row">
-                    <img class="car-img " style="width:190px;" src="${car[0].image}">
+                    <img class="car-img " style="width:190px;" src="${car[vari].image}">
 
-                    <h1 class="car-title col">${car[0].name}</h1>
+                    <h1 class="car-title col">${car[vari].name}</h1>
 
-                    <h4 class="car-description col">${car[0].rent1}</h4>
+                    <h4 class="car-description col">${car[vari].rent1}</h4>
 
-                    <span class="car-rent col"><b>${car[0].cartype}</b></span>
+                    <span class="car-rent col"><b>${car[vari].cartype}</b></span>
 
-                    <p class="car-description col">${car[0].discription}</p>
+                    <p class="car-description col">${car[vari].discription}</p>
 
-                    <p class="car-description col">${car[0].booking}</p>
+                    <p class="car-description col">${car[vari].booking}</p>
                     <button class="btn btn-dark " style="width:150px; height:50px;" onclick="book()" >Book</button>
                 </div>
                 </div>
-                <hr>
+                <button onclick="ret()" class="btn btn-light" style="margin-left:1080px; margin-top:-3%; width:200px;">Return</button>
 
-                <div class="container">
-                  <div class="row">
-                    <img class="car-img col" style="width:190px; height:290px;" src="${car[1].image}">
-
-                    <h1 class="car-title col">${car[1].name}</h1>
-
-                    <h4 class="car-description col">${car[1].rent1}</h4>
-
-                    <span class="car-rent col"><b>${car[1].cartype}</b></span>
-
-                    <p class="car-description col">${car[1].discription}</p>
-
-                    <p class="car-description col">${car[1].booking}</p>
-                    <button class="btn btn-dark " style="width:150px; height:50px;" onclick="book()" >Book</button>
-
-                </div>
-                </div>
-                <hr>
-                <div class="container">
-                  <div class="row">
-                    <img class="car-img col" style="width:290px; height:180px;" src="${car[2].image}">
-
-                    <h1 class="car-title col">${car[2].name}</h1>
-
-                    <h4 class="car-description col">${car[2].rent1}</h4>
-
-                    <span class="car-rent col"><b>${car[2].cartype}</b></span>
-
-                    <p class="car-description col">${car[2].discription}</p>
-
-                    <p class="car-description col" style="color:red;">${car[2].booking}</p>
-                    <button class="btn btn-dark " style="width:150px; height:50px;" onclick="book()" disabled>Book</button>
-
-                </div>
-                </div>
-                <hr>
-                <div class="container">
-                  <div class="row">
-                    <img class="car-img col" style="width:190px; height:auto;" src="${car[3].image}">
-
-                    <h1 class="car-title col">${car[3].name}</h1>
-
-                    <h4 class="car-description col">${car[3].rent1}</h4>
-
-                    <span class="car-rent col"><b>${car[3].cartype}</b></span>
-
-                    <p class="car-description col">${car[3].discription}</p>
-
-                    <p class="car-description col">${car[3].booking}</p>
-                    <button class="btn btn-dark " style="width:150px; height:50px;" onclick="book()" >Book</button>
-
-
-                </div>
-                </div>
-                
-                  <button onclick="ret()" class="btn btn-light" style="margin-left:1080px; margin-top:-3%; width:200px;">Return</button>
                 <hr>
               
                 `;
