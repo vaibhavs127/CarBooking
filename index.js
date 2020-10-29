@@ -41,7 +41,7 @@ $('#form-book').show();
 
 let output2='';
 output2+=`
-<img src="https://lh3.googleusercontent.com/proxy/__unjnHWgO_BFK8wP86kXgvrJuH2pjK_5UySeku1dEL_kJ1HAz0pe0GeOjk4GGVKBIO56L_bYzLbObM0-Ia_aiwE9EdXqL8" class="rounded float-left">
+<img src="https://lh3.googleusercontent.com/proxy/lsduySX-tpmSlEQRwvanAarDJG1gThz8_pHtgBuZXUki7WrNV1NPT4UTQdzJ3JRj2utUEfjgBV7SyvyEtDvYFdNdComuG2M" class="rounded float-left">
   <h2 class="h2"><b> Booking Details</b></h2>
   <form>
   <div class="form-row">
